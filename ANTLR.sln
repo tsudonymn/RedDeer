@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANTLR", "ANTLR\ANTLR.csproj", "{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ANTLRTests", "ANTLRTests\ANTLRTests.csproj", "{862853EF-92B8-4F4E-BA1F-A804CAFA4004}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sro-tfs:8080/tfs/msmsprojectcollections
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ANTLR\\ANTLR.csproj
+		SccProjectName1 = ANTLR
+		SccLocalPath1 = ANTLR
+		SccProjectUniqueName2 = ANTLRTests\\ANTLRTests.csproj
+		SccProjectName2 = ANTLRTests
+		SccLocalPath2 = ANTLRTests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}.Debug|x86.ActiveCfg = Debug|x86
+		{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}.Debug|x86.Build.0 = Debug|x86
+		{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}.Release|Mixed Platforms.Build.0 = Release|x86
+		{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}.Release|x86.ActiveCfg = Release|x86
+		{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}.Release|x86.Build.0 = Release|x86
+		{862853EF-92B8-4F4E-BA1F-A804CAFA4004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862853EF-92B8-4F4E-BA1F-A804CAFA4004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862853EF-92B8-4F4E-BA1F-A804CAFA4004}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{862853EF-92B8-4F4E-BA1F-A804CAFA4004}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{862853EF-92B8-4F4E-BA1F-A804CAFA4004}.Debug|x86.ActiveCfg = Debug|x86
+		{862853EF-92B8-4F4E-BA1F-A804CAFA4004}.Debug|x86.Build.0 = Debug|x86
+		{862853EF-92B8-4F4E-BA1F-A804CAFA4004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862853EF-92B8-4F4E-BA1F-A804CAFA4004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862853EF-92B8-4F4E-BA1F-A804CAFA4004}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{862853EF-92B8-4F4E-BA1F-A804CAFA4004}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{862853EF-92B8-4F4E-BA1F-A804CAFA4004}.Release|x86.ActiveCfg = Release|x86
+		{862853EF-92B8-4F4E-BA1F-A804CAFA4004}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
