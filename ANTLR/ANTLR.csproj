@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{FC3C01B8-65CB-45EB-A96C-B5DAB9BC296A}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ANTLR</RootNamespace>
     <AssemblyName>ANTLR</AssemblyName>
@@ -39,7 +39,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ANTLR.Program</StartupObject>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,14 +51,13 @@
     <OutputPath>bin\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Antlr3.Runtime">
-      <HintPath>..\..\..\..\..\..\..\Dawson\Dawson DEV\ProductionSource\SharedLib\Libraries\Antlr3.Runtime.dll</HintPath>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Antlr4.StringTemplate">
-      <HintPath>..\..\..\..\..\..\..\Dawson\Dawson DEV\ProductionSource\SharedLib\Libraries\Antlr4.StringTemplate.dll</HintPath>
-    </Reference>
-    <Reference Include="Antlr4.StringTemplate.Visualizer">
-      <HintPath>..\..\..\..\..\..\..\Dawson\Dawson DEV\ProductionSource\SharedLib\Libraries\Antlr4.StringTemplate.Visualizer.dll</HintPath>
+    <Reference Include="Antlr4.StringTemplate, Version=4.0.6.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Antlr4.StringTemplate.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -71,30 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datagroup.cs" />
-    <Compile Include="DynamicEntityAttribute.cs" />
     <Compile Include="DynamicRenderer.cs" />
-    <Compile Include="DynamicXMLNode.cs" />
     <Compile Include="EntityAttribute.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
